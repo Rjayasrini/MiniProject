@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<center>
+<h1>AGATHA CHRISTIE</h1>
+</center>
+<style>
+    .book-images {
+        margin: 80px auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; /* Added to allow items to wrap to the next line */
+    }
+
+    .book-image img {
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .book-image {
+        flex-basis: 28%; /* Updated to a smaller value */
+        position: relative;
+    }
+
+    .book-caption {
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%; /* Set width to 100% */
+        height: 100%; /* Set height to 100% */
+        background: rgba(0, 15, 152, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: aliceblue;
+        cursor: pointer;
+        opacity: 0;
+        transition: 0.4s;
+        font-family: "Sofia", cursive;
+    }
+
+    .book-caption img {
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .book-image:hover .book-caption {
+        opacity: 1;
+    }
+</style>
+</head>
+<body>
+    
+<div class='book-images'>
+    <div class='book-image'>
+        <img src="../src/assets/image11.png" alt="Book 1">
+        <div class='book-caption'>
+            <img src="../src/assets/image11.png" alt="Book 1">
+            "In the book, detective Hercule Poirot investigates five people about a murder committed sixteen years earlier. Caroline Crale died in prison after being convicted of murdering her husband, Amyas Crale, by poisoning him. In her final letter from prison, she claims to be innocent of the murder. Her daughter Carla Lemarchant asks Poirot to investigate this cold case, based on the memories of the people closest to the couple."
+        </div>
+    </div>
+    <div class='book-image'>
+        <img src="../src/assets/image12.png" alt="Book 2">
+        <div class='book-caption'>
+            <img src="../src/assets/image12.png" alt="Book 2">
+            "Miss Jane Marple, an elderly spinster living in the quiet little village of St. Mary Mead. During her many visits to friends and relatives in other villages (and sometimes when simply being at home), Miss Marple often stumbles upon or hears about mysterious murders, which she helps solve. Although the police are sometimes reluctant to accept Miss Marple's help, her reputation and unparalleled powers of observation eventually win them over."
+        </div>
+    </div>
+    <div class='book-image'>
+        <img src="../src/assets/image13.png" alt="Book 3">
+        <div class='book-caption'>
+            <img src="../src/assets/image13.png" alt="Book 3">
+            "Just after midnight, a snowdrift stops the Orient Express in its tracks. The luxurious train is surprisingly full for the time of the year, but by the morning it is one passenger fewer. An American tycoon lies dead in his compartment, stabbed a dozen times, his door locked from the inside. Isolated and with a killer in their midst, detective Hercule Poirot must identify the murderer – in case he or she decides to strike again."
+        </div>
+    </div>
+    <div class='book-image'>
+        <img src="../src/assets/image14.png" alt="Book 4">
+        <div class='book-caption'>
+            <img src="../src/assets/image14.png" alt="Book 4">
+            "At a Hallowe’en party, Joyce – a hostile thirteen-year-old – boasts that she once witnessed a murder. When no-one believes her, she storms off home. But within hours her body is found, still in the house, drowned in an apple-bobbing tub. That night, Hercule Poirot is called in to find the ‘evil presence’. But first he must establish whether he is looking for a murderer or a double-murderer."
+
+        </div>
+    </div>
+    <div class='book-image'>
+        <img src="../src/assets/image15.png" alt="Book 5">
+        <div class='book-caption'>
+            <img src="../src/assets/image15.png" alt="Book 5">
+            "Sir Claud Amory’s revolutionary new formula for a powerful explosive is stolen. Locking his house-guests in the library, Sir Claud switches off the lights to allow the thief to replace the formula, no questions asked. When the lights come on, he is dead, and Hercule Poirot and Captain Hastings have to unravel a tangle of family feuds, old flames and suspicious foreigners to find the killer and prevent a global catastrophe."
+        </div>
+    </div>
+    <div class='book-image'>
+        <img src="../src/assets/image16.png" alt="Book 6">
+        <div class='book-caption'>
+            <img src="../src/assets/image16.png" alt="Book 6">
+            "A flamboyant party host is murdered in full view of a roomful of bridge players… Mr Shaitana was famous as a flamboyant party host. Nevertheless, he was a man of whom everybody was a little afraid. So, when he boasted to Poirot that he considered murder an art form, the detective had some reservations about accepting a party invitation to view Shaitana’s private collection. Indeed, what began as an absorbing evening of bridge was to turn into a more dangerous game altogether"
+        </div>
+    </div>
+</div>
+</body>
+</html>
