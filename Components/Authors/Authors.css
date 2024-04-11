@@ -1,0 +1,37 @@
+.authors {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: center;
+}
+
+.w3-third {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.w3-row-padding {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Add a new class to adjust button size */
+.w3-button-bigger {
+    font-size: 30px; /* Adjust the font size as needed */
+    padding: 15px 25px; /* Adjust the padding as needed */
+  }
+  .a {
+    text-decoration: none; /* Removes default underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: navy;
+  }
+  

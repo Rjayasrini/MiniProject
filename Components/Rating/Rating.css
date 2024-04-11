@@ -1,0 +1,109 @@
+.rating{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.rating-col{
+    flex-basis: 48%;
+    color: #676767;
+}
+.rating-col h3{
+    color: #000F38;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.rating-col h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+.rating-col p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+.rating-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.rating-col ul li img{
+    width: 25px;
+    margin-right: 10px;
+}
+    
+.rating form input, .rating form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+.rating-col span{
+    display: block;
+    margin: 20px 0;
+}
+/* UserReviews.css */
+.user-reviews-container {
+    background-color: #add8e6; /* Mild background color */
+    border-radius: 10px; /* Rounded border */
+    padding: 20px;
+    width: 250px; /* Set a smaller fixed width for the review box */
+    float: right; /* Align the review box to the right */
+    margin-top: 20px; /* Space from the top */
+    margin-left: 10px; /* Space from the left */
+  }
+  
+  .review {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .review-rating {
+    font-weight: bold;
+  }
+  
+  .review-comment {
+    margin-top: 5px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .star-rating {
+    font-size: 24px;
+  }
+  
+  .star {
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .star.filled {
+    color: #f8ba03; /* Default color for filled stars */
+  }
+  
+  .star:hover,
+  .star.filled:hover {
+    color: #f8ba03; /* Change color on hover */
+  }
